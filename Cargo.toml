@@ -3,9 +3,9 @@ name = "rusty"
 version = "0.1.0"
 authors = ["Gabe <finkegabriel@gmail.com>"]
 edition = "2018"
-
+built = "cargo build --target=arm-unknown-linux-gnueabihf"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rppal = "0.11.3"
-
+cargo-run-script = "0.1.0"
